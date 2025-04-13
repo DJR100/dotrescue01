@@ -1,0 +1,12 @@
+/Build/*.mem
+/Build/*.data
+/Build/*.symbols.json
+/Build/*.wasm.code.unityweb
+/Build/*.js.symbols
+/Build/*.js.map
+/Build/*.br
+/Build/*.gz
+/Library/
+/Temp/
+/.obj/
+/.DS_Store
