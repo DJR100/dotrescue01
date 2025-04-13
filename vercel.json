@@ -1,5 +1,4 @@
 {
-  "cleanUrls": true,
   "headers": [
     {
       "source": "/Build/(.*)",
@@ -7,6 +6,14 @@
         {
           "key": "Content-Encoding",
           "value": "br"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     }
